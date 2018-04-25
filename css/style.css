@@ -1,1 +1,134 @@
- 
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower|Gloria+Hallelujah|Gugi');
+/*
+font-family: 'Gugi', cursive;
+font-family: 'Gamja Flower', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+*/
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+
+ header{
+     background: url('../img/header-background.jpg') no-repeat center center;
+     background: cover;
+     height: 100vh;
+ }
+
+ .contact{
+     background: black;
+     color: white;
+     height: 5vh;
+     width: 100%;
+     margin: 0 auto;
+ }
+
+ .email{
+     padding-left: 3vw; 
+ }
+
+.email p{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.2rem;
+ }
+
+ .email i, p{
+     display: inline;
+     line-height: 5vh;
+ }
+
+ .email i:hover, p:hover{
+    font-size: 1.3rem;
+    color: orangered; 
+ }
+
+ .social-icon ul{
+     display: flex;
+     justify-content: space-around;
+     line-height: 5vh;
+ }
+
+ .social-icon ul li{
+     list-style-type: none;
+     display: inline;
+}
+
+ .social-icon ul li a{
+     text-decoration: none;
+     color: white;
+ }
+
+ .social-icon ul li a:hover{
+    color: orangered;
+    font-size: 1.3rem;
+}
+
+ .menu{
+     margin: 0 auto;
+    height: 10vh;
+    background: rgb(248, 101, 48);
+    color: white;
+    line-height: 10vh;
+    width: 100%;
+ }
+
+ .logo{
+     font-family: 'Gamja Flower', cursive;
+     font-size: 2rem;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ .navigation-menu ul{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.navigation-menu ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.2rem;
+}
+
+.navigation-menu ul li a:hover{
+    text-shadow: 5px 5px 5px black;
+    font-size: 1.5rem;
+}
+
+.head-text{
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    height: 85vh;
+    margin-top: 20vh;
+
+}
+
+.head-text h2{
+    font-size: 4rem;
+    color: orangered;
+    text-shadow: 5px 5px 5px black;
+}
+
+.head-text h3{
+    font-size: 2rem;
+    margin: 3% auto;
+    text-shadow: 3px 3px 3px black;
+}
+
+.head-text input{
+    padding: 1% 3%;
+    background: red;
+    color: white;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 5px black;
+}
+
