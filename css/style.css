@@ -38,7 +38,7 @@ font-family: 'Gloria Hallelujah', cursive;
      line-height: 5vh;
  }
 
- .email i:hover, p:hover{
+ .email i:hover, .email p:hover{
     font-size: 1.3rem;
     color: orangered; 
  }
@@ -130,5 +130,28 @@ font-family: 'Gloria Hallelujah', cursive;
     border-radius: 10%;
     font-size: 1.2rem;
     box-shadow: 5px 5px 5px black;
+}
+
+.quote-container{
+    width: 60%;
+    margin: 3% auto;
+    
+}
+
+.Quote{
+    font-size: 2.2rem;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.quote-by{
+    font-size: 1.3rem;
+    color: grey;
+    display: block;
+    text-align: right;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.dash{
+    font-weight: 400;
 }
 
